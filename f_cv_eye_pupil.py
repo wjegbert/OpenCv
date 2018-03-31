@@ -9,9 +9,9 @@ import cv2
 import scipy.signal as sig
 capture = cv2.VideoCapture(0)
 face_detect=cv2.CascadeClassifier(
-        'C:\\Users\\Student\\Anaconda3\\pkgs\\opencv3-3.1.0-py35_0\\Library\\etc\\haarcascades\\haarcascade_frontalface_default.xml')
+        '...\\haarcascades\\haarcascade_frontalface_default.xml')
 eye_detect = cv2.CascadeClassifier(
-        'C:\\Users\\Student\\Anaconda3\\pkgs\\opencv3-3.1.0-py35_0\\Library\\etc\\haarcascades\\haarcascade_eye.xml')
+        '...\\haarcascades\\haarcascade_eye.xml')
 while(True):
     # Capture frame-by-frame
     ret, frame = capture.read()
