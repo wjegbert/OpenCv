@@ -10,7 +10,7 @@ import cv2
 capture = cv2.VideoCapture(0)
 #initializes built-in face detection algo based on Haar cascades
 face_detect=cv2.CascadeClassifier(
-        'C:\\Users\\William\\OpenCV\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml')
+        '...opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml')
 
 while(True):
     # Capture frame-by-frame
